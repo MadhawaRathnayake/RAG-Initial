@@ -1,0 +1,45 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local vector stores and generated databases
+db/
+dbv*/
+chroma_db/
+
+# Generated exports and RAG results
+chunks_export.json
+rag_results.json
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# VS Code local settings
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
