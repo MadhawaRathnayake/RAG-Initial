@@ -1,4 +1,4 @@
-# RAG For Beginners
+# RAG pipeline with LangChain & ChromaDB
 
 Small, progressive examples for building a Retrieval-Augmented Generation (RAG) application with Python, LangChain, OpenAI models, and ChromaDB.
 
